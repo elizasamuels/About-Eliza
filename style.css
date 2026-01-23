@@ -21,7 +21,7 @@ body {
   font-family: "Segoe UI", sans-serif;
   background: var(--bg-soft);
   color: var(--text-main);
-  padding-top: 25px; /* adjust if navbar height changes */
+  padding-top: 55px; /* adjust if navbar height changes */
 }
 
 /* -------------------
@@ -34,8 +34,11 @@ body {
   background-color: rgb(239, 210, 239);
   position: fixed;
   top: 0;
+  height: 64px;
+  display: flex;
+  align-items: center;
   width: 100%;
-  z-index: 1000;
+  z-index: 900;
 }
 /* -------------------
    NAV LINK INTERACTION
@@ -48,12 +51,26 @@ body {
   display: inline-block; /* prevents layout shift */
 }
 
+.custom-navbar .nav-container {
+  display: flex;
+  align-items: center;
+}
+
+.custom-navbar .navbar-nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;            /* 🚫 no wrapping */
+  gap: 1rem;                    /* spacing between links */
+}
+
 .custom-navbar .nav-link {
   color: var(--pink-main);
   transition:
     color 0.25s ease,
     transform 0.25s ease;
   display: inline-block; /* prevents layout shift */
+  padding: 0.5rem 0.75rem;
+  white-space: nowrap;          /* prevents text wrapping */
 }
 
 /* Hover interaction */
