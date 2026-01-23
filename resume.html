@@ -6,10 +6,7 @@
   <title>Eliza Samuels | Resume</title>
 
   <!-- Bootstrap -->
-  <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-  />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
 
   <!-- Shared Site CSS -->
   <link rel="stylesheet" href="style.css" />
@@ -18,129 +15,191 @@
 <body>
 
   <!-- NAVBAR -->
-  <nav class="navbar custom-navbar">
+  <nav class="navbar navbar-expand-sm custom-navbar">
     <div class="container nav-container">
       <a class="navbar-brand" href="index.html">Eliza Samuels</a>
-      <ul class="navbar-nav ">
-        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+      <ul class="navbar-nav ms-auto">
         <li class="nav-item"><a class="nav-link active" href="resume.html">Resume</a></li>
-        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="designer.html">Designer Vault</a></li>
       </ul>
     </div>
   </nav>
 
   <!-- HEADER -->
   <section class="content-section">
-    <h1 class="section-title">Resume</h1>
+    <h1 class="section-title">Eliza Samuels</h1>
+    <div class="card-grid">
+      <div class="glass-card">
+        <p class="text-center subtitle">
+          Software Engineer · Full-Stack & Systems
+        </p>
 
-    <p class="text-center contact">
-      Richmond, VA ·
-      <a href="mailto:elizasamuels03@gmail.com">elizasamuels03@gmail.com</a> ·
-      <a href="https://www.linkedin.com/in/eliza-samuels/" target="_blank">LinkedIn</a> ·
-      <a href="https://github.com/elizasamuels" target="_blank">GitHub</a>
-    </p>
+        <p class="text-center contact">
+          Richmond, VA ·
+          <a href="mailto:elizasamuels03@gmail.com">elizasamuels03@gmail.com</a> ·
+          <a href="https://www.linkedin.com/in/eliza-samuels/" target="_blank">LinkedIn</a> ·
+          <a href="https://github.com/elizasamuels" target="_blank">GitHub</a> ·
+          <a href="https://elizasamuels.github.io/elizasamuels/" target="_blank">Portfolio</a>
+        </p>
 
-    <div class="text-center">
-      <a
-        href="assets/Eliza_Samuels_Resume.pdf"
-        class="btn btn-primary"
-        download
-      >
-        Download PDF
-      </a>
+        <div class="text-center">
+          <a href="assets/Eliza_Samuels_Resume.pdf" class="btn btn-primary" download>
+            Download PDF
+          </a>
+        </div>
+      </div>
     </div>
   </section>
 
-  <!-- SKILLS / EDUCATION -->
-  <section class="content-section alt-bg">
+  <!-- SUMMARY -->
+  <section class="content-section">
+    <h2 class="section-title">Summary</h2>
     <div class="card-grid">
-
       <div class="glass-card">
-        <h4>Skills</h4>
-        <ul>
-          <li><strong>Languages:</strong> Java, Python, C/C++, JavaScript, HTML/CSS</li>
-          <li><strong>Frameworks:</strong> React, Django, Node.js</li>
-          <li><strong>Tools:</strong> Git, Docker, Linux</li>
-          <li><strong>Strengths:</strong> Problem-solving, leadership, adaptability</li>
-        </ul>
-      </div>
-
-      <div class="glass-card">
-        <h4>Education</h4>
-        <p>
-          <strong>James Madison University</strong><br />
-          B.S. Computer Science, Minor in Mathematics<br />
-          2021 – 2025 · GPA 3.5 · Cum Laude
+        <p class="summary-text">
+          Software Engineer with strong foundations in building user-focused, scalable applications,
+          integrating frontend and backend services, and developing low-level systems in Unix/Linux environments.
         </p>
       </div>
+    </div>
+  </section>
 
+  <!-- TECHNICAL SKILLS -->
+  <section class="content-section">
+    <h2 class="section-title">Technical Skills</h2>
+    <div class="card-grid">
+      <div class="glass-card">
+        <ul class="resume-list">
+          <li><strong>Languages:</strong> Java, JavaScript, Python, C/C++, SQL (PostgreSQL), HTML, CSS</li>
+          <li><strong>Additional Exposure:</strong> Rust, Ruby, Haskell, Assembly (x86), LaTeX</li>
+          <li><strong>Frameworks & Tools:</strong> React, Node.js, Django, Git/GitHub, Docker, JUnit, Unix/Linux</li>
+          <li><strong>Libraries:</strong> pandas, NumPy, Matplotlib</li>
+          <li><strong>Concepts:</strong> Data Structures & Algorithms, Operating Systems, REST APIs, Authentication, Networking, Agile/SCRUM</li>
+        </ul>
+      </div>
     </div>
   </section>
 
   <!-- EXPERIENCE -->
   <section class="content-section">
     <h2 class="section-title">Experience</h2>
-
     <div class="card-grid">
-
-      <div class="project-card">
-        <h5>Web Developer & Research Assistant</h5>
-        <p>
-          Improved UI, integrated frontend/backend components, and conducted UX testing
-          to enhance usability and performance.
-        </p>
-      </div>
-
-      <div class="project-card">
-        <h5>Treasurer · JMU Club Cheerleading</h5>
-        <p>
-          Managed finances, raised $12k, coordinated logistics, and supported team leadership.
-        </p>
-      </div>
-
-      <div class="project-card">
-        <h5>Host & Server · The Mill at Fine Creek</h5>
-        <p>
-          Event setup, guest coordination, and fast-paced service experience.
-        </p>
-      </div>
-
-      <div class="project-card">
-        <h5>Summer Camp Coordinator</h5>
-        <p>
-          Designed and executed programs for youth education and engagement.
-        </p>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- PROJECTS & SERVICE -->
-  <section class="content-section alt-bg">
-    <div class="card-grid">
-
       <div class="glass-card">
-        <h4>Projects</h4>
-        <ul>
-          <li><strong>Software:</strong> VR escape room, inventory/design apps, map visualizer</li>
-          <li><strong>Systems:</strong> Y86 CPU simulator, process & memory management (C, Linux)</li>
-        </ul>
+        <div class="resume-entry">
+          <div class="resume-header">
+            <h5>Web Developer & Research Assistant</h5>
+            <span>May 2024 – Aug 2024</span>
+          </div>
+          <p class="resume-subheader">Music CPR — Create, Perform, Respond · Harrisonburg, VA</p>
+          <ul class="resume-list">
+            <li>Designed and implemented reusable UI components with emphasis on accessibility and visual design</li>
+            <li>Integrated frontend features with backend services using RESTful APIs to ensure reliable data flow</li>
+            <li>Collaborated with designers and researchers to translate concepts into polished user experiences</li>
+            <li>Conducted usability testing and iterated on feedback to improve engagement and task completion</li>
+            <li>Refactored and optimized codebases to improve performance, maintainability, and cross-browser compatibility</li>
+          </ul>
+        </div>
       </div>
 
       <div class="glass-card">
-        <h4>Service</h4>
-        <ul>
-          <li>130+ hours STEM outreach, mentoring, and volunteering</li>
-          <li>Organized food drive for 300+ families (1,500+ items)</li>
-        </ul>
+        <div class="resume-entry">
+          <div class="resume-header">
+            <h5>Treasurer</h5>
+            <span>Dec 2022 – Dec 2023</span>
+          </div>
+          <p class="resume-subheader">JMU Club Cheerleading · Harrisonburg, VA</p>
+          <ul class="resume-list">
+            <li>Managed budgeting, expenses, and financial reporting for a 35-member organization</li>
+            <li>Coordinated fundraising initiatives, raising $12,000 in compliance with university policies</li>
+          </ul>
+        </div>
       </div>
 
+      <div class="glass-card">
+        <div class="resume-entry">
+          <div class="resume-header">
+            <h5>Host & Server</h5>
+            <span>May 2022 – Oct 2023</span>
+          </div>
+          <p class="resume-subheader">The Mill at Fine Creek · Powhatan, VA</p>
+          <ul class="resume-list">
+            <li>Delivered high-end customer experiences in fast-paced, high-pressure environments</li>
+            <li>Coordinated event setup and service execution for large-scale events</li>
+          </ul>
+        </div>
+      </div>
     </div>
   </section>
 
-  <!-- FOOTER -->
+  <!-- PROJECTS -->
+  <section class="content-section">
+    <h2 class="section-title">Projects</h2>
+    <div class="card-grid">
+      <div class="glass-card">
+        <div class="resume-entry">
+          <h5>Software Engineering Projects</h5>
+          <p class="resume-subheader">Java, JavaScript, React, HTML, CSS, SQL</p>
+          <ul class="resume-list">
+            <li>Designed and developed full-stack applications including a VR escape room and consumer-facing design app</li>
+            <li>Implemented scalable, component-based frontend architectures using React</li>
+            <li>Built backend services with RESTful APIs, authentication flows, and database-backed features</li>
+            <li>Wrote unit and integration tests using JUnit to support reliable software delivery</li>
+            <li>Applied Agile/SCRUM methodologies across the software development lifecycle</li>
+            <li>Containerized applications using Docker for consistent Linux-based development</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="glass-card">
+        <div class="resume-entry">
+          <h5>Systems Programming Projects</h5>
+          <p class="resume-subheader">C, Linux, Git</p>
+          <ul class="resume-list">
+            <li>Built a Y86 CPU simulator in C based on Von Neumann architecture principles</li>
+            <li>Implemented process creation, synchronization, memory management, and file systems</li>
+            <li>Developed networked applications using sockets and low-level system calls</li>
+            <li>Debugged and profiled C programs using gdb to diagnose memory leaks and segmentation faults</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="content-section">
+    <h2 class="section-title">Education</h2>
+    <div class="card-grid">
+      <div class="glass-card">
+        <div class="resume-entry">
+          <div class="resume-header">
+            <h5>James Madison University</h5>
+            <span>Aug 2021 – Dec 2025</span>
+          </div>
+          <p class="resume-subheader">
+            Bachelor of Science in Computer Science, Minor in Mathematics
+          </p>
+          <p><em>GPA: 3.5 · Cum Laude</em></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LEADERSHIP & SERVICE -->
+  <section class="content-section">
+    <h2 class="section-title">Leadership & Service</h2>
+      <div class="card-grid">
+      <div class="glass-card">
+        <ul class="resume-list">
+          <li>Completed 130+ hours of community service through Computer Science, Math, and National Honor Societies</li>
+          <li>Served as camp counselor and STEM outreach volunteer promoting inclusive hands-on technical education</li>
+          <li>Organized county-wide food drive providing 1,500 items and meals to 300+ families</li>
+        </ul>
+      </div>
+      </div>
+  </section>
+
   <footer class="footer">
-    © 2025 Eliza Samuels
+    © 2026 Eliza Samuels
   </footer>
 
 </body>
